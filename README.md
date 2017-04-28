@@ -1,13 +1,21 @@
 ## Stat 517
 
 [Introduction to Data Science](#class-1-introduction-to-data-science) 
+
 [Data Reading and Cleaning](#class-3-data-reading-and-cleaning) 
+
 [Exploratory Data Analysis](#class-4-exploratory-data-analysis)
-[Visualization](#class-5-visualization) 
+
+[Visualization](#class-5-visualization)
+
 [Machine Learning](#class-6-machine-learning)
+
 [Getting Data](#class-7-getting-data) 
+
 [K-Nearest Neighbors](#class-8-k-nearest-neighbors)
+
 [Basic Model Evaluation](#class-9-basic-model-evaluation) 
+
 [Linear Regression](#class-10-linear-regression)
 
 [First Project Presentation](#class-11-first-project-presentation)
@@ -15,15 +23,19 @@
 [Logistic Regression](#class-12-logistic-regression)
 
 [Advanced Model Evaluation](#class-13-advanced-model-evaluation) 
+
 [Naive Bayes and Text Data](#class-14-naive-bayes-and-text-data)
 
 [Natural Language Processing](#class-15-natural-language-processing) 
+
 [Kaggle Competition](#class-16-kaggle-competition)
 
 [Decision Trees](#class-17-decision-trees) 
+
 [Ensembling](#class-18-ensembling)
 
-[Advanced scikit-learn, Clustering](#class-19-advanced-scikit-learn-and-clustering) 
+[Advanced scikit-learn, Clustering](#class-19-advanced-scikit-learn-and-clustering)
+
 [Regularization, Regex](#class-20-regularization-and-regular-expressions)
 
 [Course Review](#class-21-course-review-and-final-project-presentation) 
@@ -73,7 +85,7 @@
 
 -----
 
-### Class 1: Introduction to Data Science
+### Introduction to Data Science
 * Course overview ([slides](slides/01_course_overview.pdf))
 * Introduction to data science ([slides](slides/01_intro_to_data_science.pdf))
 * Discuss the course project: [requirements](project/README.md) and [example projects](https://github.com/justmarkham/DAT-project-examples)
@@ -94,38 +106,8 @@
 
 -----
 
-### Class 2: Command Line and Version Control
-* Slack tour
-* Review the command line pre-class exercise ([code](code/02_command_line.md))
-* Git and GitHub ([slides](slides/02_git_github.pdf))
-* Intermediate command line
 
-**Homework:**
-* Complete the [command line homework assignment](homework/02_command_line_chipotle.md) with the Chipotle data.
-* Review the code from the [beginner](code/00_python_beginner_workshop.py) and [intermediate](code/00_python_intermediate_workshop.py) Python workshops. If you don't feel comfortable with any of the content (excluding the "requests" and "APIs" sections), you should spend some time this weekend practicing Python:
-    * [Introduction to Python](http://introtopython.org/) does a great job explaining Python essentials and includes tons of example code.
-    * If you like learning from a book, [Python for Informatics](http://www.pythonlearn.com/html-270/) has useful chapters on strings, lists, and dictionaries.
-    * If you prefer interactive exercises, try these lessons from [Codecademy](http://www.codecademy.com/en/tracks/python): "Python Lists and Dictionaries" and "A Day at the Supermarket".
-    * If you have more time, try missions 2 and 3 from [DataQuest's Learning Python](https://www.dataquest.io/course/learning-python) course.
-    * If you've already mastered these topics and want more of a challenge, try solving [Python Challenge](http://www.pythonchallenge.com/) number 1 (decoding a message) and send me your code in Slack.
-* To give you a framework for thinking about your project, watch [What is machine learning, and how does it work?](https://www.youtube.com/watch?v=elojMnjn4kk) (10 minutes). (This is the [IPython notebook](https://github.com/justmarkham/scikit-learn-videos/blob/master/01_machine_learning_intro.ipynb) shown in the video.) Alternatively, read [A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/), which focuses on a specific machine learning model called decision trees.
-* **Optional:** Browse through some more [example student projects](https://github.com/justmarkham/DAT-project-examples), which may help to inspire your own project!
-
-**Git and Markdown Resources:**
-* [Pro Git](http://git-scm.com/book/en/v2) is an excellent book for learning Git. Read the first two chapters to gain a deeper understanding of version control and basic commands.
-* If you want to practice a lot of Git (and learn many more commands), [Git Immersion](http://gitimmersion.com/) looks promising.
-* If you want to understand how to contribute on GitHub, you first have to understand [forks and pull requests](http://www.dataschool.io/simple-guide-to-forks-in-github-and-git/).
-* [GitRef](http://gitref.org/) is my favorite reference guide for Git commands, and [Git quick reference for beginners](http://www.dataschool.io/git-quick-reference-for-beginners/) is a shorter guide with commands grouped by workflow.
-* [Cracking the Code to GitHub's Growth](https://growthhackers.com/growth-studies/github) explains why GitHub is so popular among developers.
-* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) provides a thorough set of Markdown examples with concise explanations. GitHub's [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) is a simpler and more attractive guide, but is less comprehensive.
-
-**Command Line Resources:**
-* If you want to go much deeper into the command line, [Data Science at the Command Line](http://shop.oreilly.com/product/0636920032823.do) is a great book. The [companion website](http://datascienceatthecommandline.com/) provides installation instructions for a "data science toolbox" (a virtual machine with many more command line tools), as well as a long reference guide to popular command line tools.
-* If you want to do more at the command line with CSV files, try out [csvkit](http://csvkit.readthedocs.org/), which can be installed via `pip`.
-
------
-
-### Class 3: Data Reading and Cleaning
+### Data Reading and Cleaning
 * Git and GitHub assorted tips ([slides](slides/02_git_github.pdf))
 * Review command line homework ([solution](homework/02_command_line_chipotle.md))
 * Python:
@@ -146,7 +128,7 @@
 
 -----
 
-### Class 4: Exploratory Data Analysis
+### Exploratory Data Analysis
 * Pandas ([code](code/04_pandas.py)):
     * MovieLens 100k movie ratings ([data](data/u.user), [data dictionary](http://files.grouplens.org/datasets/movielens/ml-100k-README.txt), [website](http://grouplens.org/datasets/movielens/))
     * Alcohol consumption by country ([data](data/drinks.csv), [article](http://fivethirtyeight.com/datalab/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/))
@@ -164,7 +146,7 @@
 
 -----
 
-### Class 5: Visualization
+### Visualization
 * Python homework with the Chipotle data due ([solution](code/03_python_homework_chipotle.py), [detailed explanation](notebooks/03_python_homework_chipotle_explained.ipynb))
 * Part 2 of Exploratory Data Analysis with Pandas ([code](code/04_pandas.py))
 * Visualization with Pandas and Matplotlib ([notebook](notebooks/05_pandas_visualization.ipynb))
@@ -192,7 +174,7 @@
 
 -----
 
-### Class 6: Machine Learning
+### Machine Learning
 * Part 2 of Visualization with Pandas and Matplotlib ([notebook](notebooks/05_pandas_visualization.ipynb))
 * Brief introduction to the Jupyter/IPython Notebook
 * "Human learning" exercise:
@@ -222,7 +204,7 @@
 
 -----
 
-### Class 7: Getting Data
+### Getting Data
 * Pandas homework with the IMDb data due ([solution](code/05_pandas_homework_imdb.py))
 * Optional "human learning" exercise with the iris data due ([solution](notebooks/06_human_learning_iris.ipynb))
 * APIs ([code](code/07_api.py))
@@ -254,7 +236,7 @@
 
 -----
 
-### Class 8: K-Nearest Neighbors
+### K-Nearest Neighbors
 * Brief review of Pandas ([notebook](notebooks/08_pandas_review.ipynb))
 * K-nearest neighbors and scikit-learn ([notebook](notebooks/08_knn_sklearn.ipynb))
 * Exercise with NBA player data ([notebook](notebooks/08_nba_knn.ipynb), [data](https://github.com/justmarkham/DAT4-students/blob/master/kerry/Final/NBA_players_2015.csv), [data dictionary](https://github.com/justmarkham/DAT-project-examples/blob/master/pdf/nba_paper.pdf))
@@ -279,7 +261,7 @@
 
 -----
 
-### Class 9: Basic Model Evaluation
+### Basic Model Evaluation
 * Optional web scraping homework due ([solution](code/07_web_scraping.py#L136))
 * Reproducibility
     * Discuss assigned readings: [introduction](http://www.dataschool.io/reproducibility-is-not-just-for-researchers/), [Colbert Report video](http://thecolbertreport.cc.com/videos/dcyvro/austerity-s-spreadsheet-error), [cabs article](http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-5-2), [Tweet](https://twitter.com/jakevdp/status/519563939177197571), [creating a reproducible analysis](https://github.com/jtleek/datasharing)
@@ -305,7 +287,7 @@
 
 -----
 
-### Class 10: Linear Regression
+### Linear Regression
 * Machine learning exercise ([article](http://blog.dominodatalab.com/10-interesting-uses-of-data-science/))
 * Linear regression ([notebook](notebooks/10_linear_regression.ipynb))
     * [Capital Bikeshare dataset](data/bikeshare.csv) used in a Kaggle competition
@@ -337,7 +319,7 @@
 
 -----
 
-### Class 11: First Project Presentation
+### First Project Presentation
 * Project presentations!
 
 **Homework:**
@@ -346,7 +328,7 @@
 
 -----
 
-### Class 12: Logistic Regression
+### Logistic Regression
 * Yelp votes homework due ([solution](notebooks/10_yelp_votes_homework.ipynb))
 * Logistic regression ([notebook](notebooks/12_logistic_regression.ipynb))
     * [Glass identification dataset](https://archive.ics.uci.edu/ml/datasets/Glass+Identification)
@@ -372,7 +354,7 @@
 
 -----
 
-### Class 13: Advanced Model Evaluation
+### Advanced Model Evaluation
 * Data preparation ([notebook](notebooks/13_advanced_model_evaluation.ipynb))
     * Handling missing values
     * Handling categorical features (review)
@@ -408,7 +390,7 @@
 
 -----
 
-### Class 14: Naive Bayes and Text Data
+### Naive Bayes and Text Data
 * Conditional probability and Bayes' theorem
     * [Slides](slides/14_bayes_theorem.pdf) (adapted from [Visualizing Bayes' theorem](http://oscarbonilla.com/2009/05/visualizing-bayes-theorem/))
     * Applying Bayes' theorem to iris classification ([notebook](notebooks/14_bayes_theorem_iris.ipynb))
@@ -436,7 +418,7 @@
 
 -----
 
-### Class 15: Natural Language Processing
+### Natural Language Processing
 * Yelp review text homework due ([solution](notebooks/14_yelp_review_text_homework.ipynb))
 * Natural language processing ([notebook](notebooks/15_natural_language_processing.ipynb))
 * Introduction to our [Kaggle competition](https://inclass.kaggle.com/c/dat8-stack-overflow)
@@ -464,7 +446,7 @@
 
 -----
 
-### Class 16: Kaggle Competition
+### Kaggle Competition
 * Overview of how Kaggle works ([slides](slides/16_kaggle.pdf))
 * Kaggle In-Class competition: [Predict whether a Stack Overflow question will be closed](https://inclass.kaggle.com/c/dat8-stack-overflow)
     * [Complete code file](code/16_kaggle.py)
@@ -488,7 +470,7 @@
 
 -----
 
-### Class 17: Decision Trees
+### Decision Trees
 * Decision trees ([notebook](notebooks/17_decision_trees.ipynb))
 * Exercise with Capital Bikeshare data ([notebook](notebooks/17_bikeshare_exercise.ipynb), [data](data/bikeshare.csv), [data dictionary](https://www.kaggle.com/c/bike-sharing-demand/data))
 
@@ -505,7 +487,7 @@
 
 -----
 
-### Class 18: Ensembling
+### Ensembling
 * Finish decision trees lesson ([notebook](notebooks/17_decision_trees.ipynb))
 * Ensembling ([notebook](notebooks/18_ensembling.ipynb))
     * [Major League Baseball player data](data/hitters.csv) from 1986-87
@@ -524,7 +506,7 @@
 
 -----
 
-### Class 19: Advanced scikit-learn and Clustering
+### Advanced scikit-learn and Clustering
 * Advanced scikit-learn ([notebook](notebooks/19_advanced_sklearn.ipynb))
     * [StandardScaler](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html): standardizing features
     * [Pipeline](http://scikit-learn.org/stable/modules/pipeline.html): chaining steps
@@ -556,7 +538,7 @@
 
 -----
 
-### Class 20: Regularization and Regular Expressions
+### Regularization and Regular Expressions
 * Regularization ([notebook](notebooks/20_regularization.ipynb))
     * Regression: [Ridge](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html), [RidgeCV](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RidgeCV.html), [Lasso](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html), [LassoCV](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LassoCV.html)
     * Classification: [LogisticRegression](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
@@ -590,7 +572,7 @@
 
 -----
 
-### Class 21: Course Review and Final Project Presentation
+### Course Review and Final Project Presentation
 * Project presentations!
 * [Data science review](https://docs.google.com/document/d/19gBCkmrbMpFFLPX8wa5daMnyl7J5BXhMV8JNJwgp1pk/edit?usp=sharing)
 
@@ -603,7 +585,7 @@
 
 -----
 
-### Class 22: Final Project Presentation
+### Final Project Presentation
 * Project presentations!
 * [What's next?](other/advice.md)
 
