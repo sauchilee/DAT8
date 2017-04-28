@@ -1,19 +1,34 @@
 ## Stat 517
 
+[Introduction to Data Science](#class-1-introduction-to-data-science) 
+[Data Reading and Cleaning](#class-3-data-reading-and-cleaning) 
+[Exploratory Data Analysis](#class-4-exploratory-data-analysis)
+[Visualization](#class-5-visualization) 
+[Machine Learning](#class-6-machine-learning)
+[Getting Data](#class-7-getting-data) 
+[K-Nearest Neighbors](#class-8-k-nearest-neighbors)
+[Basic Model Evaluation](#class-9-basic-model-evaluation) 
+[Linear Regression](#class-10-linear-regression)
 
-Tuesday | Thursday
---- | ---
-8/18: [Introduction to Data Science](#class-1-introduction-to-data-science) | 8/20: [Command Line, Version Control](#class-2-command-line-and-version-control)
-8/25: [Data Reading and Cleaning](#class-3-data-reading-and-cleaning) | 8/27: [Exploratory Data Analysis](#class-4-exploratory-data-analysis)
-9/1: [Visualization](#class-5-visualization) | 9/3: [Machine Learning](#class-6-machine-learning)
-9/8: [Getting Data](#class-7-getting-data) | 9/10: [K-Nearest Neighbors](#class-8-k-nearest-neighbors)
-9/15: [Basic Model Evaluation](#class-9-basic-model-evaluation) | 9/17: [Linear Regression](#class-10-linear-regression)
-9/22: [First Project Presentation](#class-11-first-project-presentation) | 9/24: [Logistic Regression](#class-12-logistic-regression)
-9/29: [Advanced Model Evaluation](#class-13-advanced-model-evaluation) | 10/1: [Naive Bayes and Text Data](#class-14-naive-bayes-and-text-data)
-10/6: [Natural Language Processing](#class-15-natural-language-processing) | 10/8: [Kaggle Competition](#class-16-kaggle-competition)
-10/13: [Decision Trees](#class-17-decision-trees) | 10/15: [Ensembling](#class-18-ensembling)
-10/20: [Advanced scikit-learn, Clustering](#class-19-advanced-scikit-learn-and-clustering) | 10/22: [Regularization, Regex](#class-20-regularization-and-regular-expressions)
-10/27: [Course Review](#class-21-course-review-and-final-project-presentation) | 10/29: [Final Project Presentation](#class-22-final-project-presentation)
+[First Project Presentation](#class-11-first-project-presentation)
+
+[Logistic Regression](#class-12-logistic-regression)
+
+[Advanced Model Evaluation](#class-13-advanced-model-evaluation) 
+[Naive Bayes and Text Data](#class-14-naive-bayes-and-text-data)
+
+[Natural Language Processing](#class-15-natural-language-processing) 
+[Kaggle Competition](#class-16-kaggle-competition)
+
+[Decision Trees](#class-17-decision-trees) 
+[Ensembling](#class-18-ensembling)
+
+[Advanced scikit-learn, Clustering](#class-19-advanced-scikit-learn-and-clustering) 
+[Regularization, Regex](#class-20-regularization-and-regular-expressions)
+
+[Course Review](#class-21-course-review-and-final-project-presentation) 
+
+[Final Project Presentation](#class-22-final-project-presentation)
 
 <!--
 ### Before the Course Begins
